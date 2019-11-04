@@ -14,8 +14,8 @@ class Header extends React.Component {
                     </h2>
                     <br />
                     <h1>
-                    Fullstack developer, <br />
-                    UI/UX enthusiast, <br />
+                    Fullstack Developer, <br />
+                    UI/UX Enthusiast, <br />
                     Traveler, <br />
                     Human.<br />
                     </h1>

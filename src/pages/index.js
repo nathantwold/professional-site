@@ -45,16 +45,21 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Fullstack Software and Web Developer <br />
+                            with a background in B2B Sales, Marketing, and Operations.</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p></p>
                         {/* <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul> */}
                     </section>
 
                     <section id="two">
+                        <h2>Tools and Technologies</h2>
+                        <h3>React.js, Node.js, Ruby, JQuery, HTML5, SCSS, Javascript, PostgreSQL, VS Code, Bootstrap, Material UI, Redux.js</h3>
+                    </section>
+
+                    <section id="three">
                         <h2>Recent Work</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
@@ -69,7 +74,7 @@ class HomeIndex extends React.Component {
                         </ul> */}
                     </section>
 
-                    <section id="three">
+                    <section id="four">
                         <h2>Contact</h2>
                         <p>Send me a messsage.  I'd love to hear from you!</p>
                         <div className="row">
