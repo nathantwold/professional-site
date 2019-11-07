@@ -65,9 +65,32 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Recent Work</h2>
-                        <div className="row">
-
-                            {/* <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                        <div className="column">
+                            <ul>
+                                <div className="row uniform 50%">
+                                    <div className="card">
+                                        <h3>Project 1</h3>
+                                        <h4>Details about project 1</h4>
+                                        <h5 className="linkrepo">Check out the repo</h5>
+                                    </div>
+                                    <div className="card">
+                                        <h3>Project 1</h3>
+                                        <h4>Details about project 1</h4>
+                                        <h5 className="linkrepo">Check out the repo</h5>
+                                    </div>
+                                    <div className="card">
+                                        <h3>Project 1</h3>
+                                        <h4>Details about project 1 fasdf adfa fasf asdf afasdfasdfasfdasdf asdf af asdf asdf asdf asf asf asdffd fasff asf asdf asdf asdf asf</h4>
+                                        <h5 className="linkrepo">Check out the repo</h5>
+                                    </div>
+                                    <div className="card">
+                                        <h3>Project 1</h3>
+                                        <h4>Details about project 1</h4>
+                                        <h5 className="linkrepo">Check out the repo</h5>
+                                    </div>
+                                </div>
+                            </ul>
+                                {/* <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                                 source,
                                 thumbnail,
                                 caption,
@@ -76,46 +99,46 @@ class HomeIndex extends React.Component {
                         </div>
                     </section>
 
-                    <section id="four">
-                        <h2>Contact</h2>
-                        <div className="row">
-                            <div className="8u 12u$(small)">
-                                {/* <form method="post" action="#">
+                        <section id="four">
+                            <h2>Contact</h2>
+                            <div className="row">
+                                <div className="8u 12u$(small)">
+                                    {/* <form method="post" action="#">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
                                 </form> */}
-                                <p>Send me a messsage.  I'd love to hear from you!</p>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
+                                    <p>Send me a messsage.  I'd love to hear from you!</p>
+                                    <ul className="actions">
+                                        <li><input type="submit" value="Send Message" /></li>
+                                    </ul>
+                                </div>
+                                <div className="4u 12u$(small)">
+                                    <ul className="labeled-icons">
+                                        <li>
+                                            <h3 className="icon fa-linkedin"><span className="label">linkedin</span></h3>
+                                            <a href="https://www.linkedin.com/in/nathan-wold-284335193/">linkedin.com/nathan-wold</a>
+                                        </li>
+                                        <li>
+                                            <h3 className="icon fa-github"><span className="label">github</span></h3>
+                                            <a href="https://github.com/nathantwold">github.com/nathantwold</a>
+                                        </li>
+                                        <li>
+                                            <h3 className="icon fa-envelope-o"><span className="label">email</span></h3>
+                                            <a href="natew79@gmail.com">natew79@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="4u 12u$(small)">
-                                <ul className="labeled-icons">
-                                    <li>
-                                        <h3 className="icon fa-linkedin"><span className="label">linkedin</span></h3>
-                                        <a href="https://www.linkedin.com/in/nathan-wold-284335193/">linkedin.com/nathan-wold</a>
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-github"><span className="label">github</span></h3>
-                                        <a href="https://github.com/nathantwold">github.com/nathantwold</a>
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">email</span></h3>
-                                        <a href="natew79@gmail.com">natew79@gmail.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
+                        </section>
 
                 </div>
 
             </Layout>
-        )
-    }
-}
-
+                )
+            }
+        }
+        
 export default HomeIndex
