@@ -20,15 +20,19 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' }
 ];
 
 class HomeIndex extends React.Component {
+
+    sendMessage = () => {
+        console.log('sent!');
+    }
 
     render() {
         const siteTitle = "Nathan T Wold"
@@ -37,8 +41,8 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />
                 </Helmet>
 
                 <div id="main">
@@ -46,7 +50,7 @@ class HomeIndex extends React.Component {
                     <section id="one">
                         <header className="major">
                             <h2>Fullstack Software and Web Developer <br />
-                            with a background in B2B Sales, Marketing, and Operations.</h2>
+                                with a background in Sales, Management, and Operations.</h2>
                         </header>
                         <p></p>
                         {/* <ul className="actions">
@@ -61,31 +65,29 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Recent Work</h2>
+                        <div className="row">
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
-                            source,
-                            thumbnail,
-                            caption,
-                            description
-                        }))} />
-
-                        {/* <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul> */}
+                            {/* <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                                source,
+                                thumbnail,
+                                caption,
+                                description
+                            }))} /> */}
+                        </div>
                     </section>
 
                     <section id="four">
                         <h2>Contact</h2>
-                        <p>Send me a messsage.  I'd love to hear from you!</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                {/* <form method="post" action="#">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
-                                </form>
+                                </form> */}
+                                <p>Send me a messsage.  I'd love to hear from you!</p>
                                 <ul className="actions">
                                     <li><input type="submit" value="Send Message" /></li>
                                 </ul>
