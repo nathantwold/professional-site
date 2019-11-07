@@ -79,9 +79,7 @@ class HomeIndex extends React.Component {
                                         </div>
                                     </form> */}
                                 <p>Send me a messsage.  I'd love to hear from you!</p>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
+                                <button onClick={() => console.log('click')} className="linkrepo">Email me!</button>
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
