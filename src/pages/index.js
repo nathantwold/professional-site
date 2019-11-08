@@ -6,10 +6,6 @@ import Layout from '../components/layout'
 
 class HomeIndex extends React.Component {
 
-    sendMessage = () => {
-        console.log('sent!');
-    }
-
     render() {
         const siteTitle = "Nathan T Wold"
         const siteDescription = "My professional site"
@@ -25,7 +21,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Fullstack Software and Web Developer <br />
+                            <h2>Full Stack Software and Web Developer <br />
                                 with a background in Sales, Management, and Operations.</h2>
                         </header>
                         <p></p>
@@ -79,7 +75,7 @@ class HomeIndex extends React.Component {
                                         </div>
                                     </form> */}
                                 <p>Send me a messsage.  I'd love to hear from you!</p>
-                                <button onClick={() => console.log('click')} className="linkrepo">Email me!</button>
+                                <a href="mailto:natew79@gmail.com"><button className="linkrepo">Email</button></a>
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
@@ -93,7 +89,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">email</span></h3>
-                                        <a href="natew79@gmail.com">natew79@gmail.com</a>
+                                        <a href="mailto:natew79@gmail.com">natew79@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
