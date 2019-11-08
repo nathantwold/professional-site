@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
 
 class HomeIndex extends React.Component {
 
@@ -25,14 +24,11 @@ class HomeIndex extends React.Component {
                                 with a background in Sales, Management, and Operations.</h2>
                         </header>
                         <p></p>
-                        {/* <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul> */}
                     </section>
 
                     <section id="two">
                         <h2>Tools and Technologies</h2>
-                        <h3>React.js, Node.js, Ruby, JQuery, HTML5, SCSS, Javascript, PostgreSQL, VS Code, Bootstrap, Material UI, Redux.js</h3>
+                        <h3>React.js, Node.js, Ruby, JQuery, HTML 5, CSS 3, Javascript, PostgreSQL, VS Code, Bootstrap, Material UI, Redux.js</h3>
                     </section>
 
                     <section id="three">
@@ -40,24 +36,46 @@ class HomeIndex extends React.Component {
                         <div className="column">
                             <ul>
                                 <div className="card">
-                                    <h3>Project 1</h3>
-                                    <h4>Details about project 1</h4>
-                                    <button className="linkrepo">Check out the repo</button>
+                                    <h3>Ships in the Night</h3>
+                                    <h4>
+                                        A mobile-first, full stack web application designed for households to share in task and chore management and delegation.
+                                        Technologies used include React, Redux, Redux-Saga, Node, Material UI, Nodemailer, and PostgreSQL.
+                                    </h4>
+                                    <a href="https://github.com/nathantwold/ships-in-the-night" target="_blank" rel="noopener noreferrer">
+                                        Check it out on Github!
+                                    </a>
+                                    <br />
+                                    <a href="https://ships-in-the-night.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                        See the live demo on Heroku!
+                                    </a>
                                 </div>
                                 <div className="card">
-                                    <h3>Project 1</h3>
-                                    <h4>Details about project 1</h4>
-                                    <button className="linkrepo">Check out the repo</button>
+                                    <h3>Movie Sagas Weekend</h3>
+                                    <h4>
+                                        A full CRUD, Netflix style desktop application. You can scroll through a movie selection stored in a database
+                                        and select a movie to see additional details such as genres.
+                                    </h4>
+                                    <a href="https://github.com/nathantwold/movie-sagas-weekend" target="_blank" rel="noopener noreferrer">
+                                        Check it out on Github!
+                                    </a>
+                                    <br />
+                                    <a href="https://nates-movie-sagas-weekend.herokuapp.com/#/" target="_blank" rel="noopener noreferrer">
+                                        See the live demo on Heroku!
+                                    </a>
                                 </div>
                                 <div className="card">
-                                    <h3>Project 1</h3>
-                                    <h4>Details about project 1 fasdf adfa fasf asdf afasdfasdfasfdasdf asdf af asdf asdf asdf asf asf asdffd fasff asf asdf asdf asdf asf</h4>
-                                    <button className="linkrepo">Check out the repo</button>
-                                </div>
-                                <div className="card">
-                                    <h3>Project 1</h3>
-                                    <h4>Details about project 1</h4>
-                                    <button className="linkrepo">Check out the repo</button>
+                                    <h3>Prime Student Feedback App</h3>
+                                    <h4>
+                                        A mobile-first feedback application that displays the usage of hash routing and client side database requests.
+                                        Also has an admin view at '/admin' where you can view feedback history and delete or flag items for review.
+                                    </h4>
+                                    <a href="https://github.com/nathantwold/redux-feedback-loop" target="_blank" rel="noopener noreferrer">
+                                        Check it out on Github!
+                                    </a>
+                                    <br />
+                                    <a href="https://nates-redux-feedback-loop.herokuapp.com/#/" target="_blank" rel="noopener noreferrer">
+                                        See the live demo on Heroku!
+                                    </a>
                                 </div>
                             </ul>
                         </div>
@@ -67,13 +85,6 @@ class HomeIndex extends React.Component {
                         <h2>Contact</h2>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                {/* <form method="post" action="#">
-                                        <div className="row uniform 50%">
-                                            <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                            <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                            <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                        </div>
-                                    </form> */}
                                 <p>Send me a messsage.  I'd love to hear from you!</p>
                                 <a href="mailto:natew79@gmail.com"><button className="linkrepo">Email</button></a>
                             </div>
