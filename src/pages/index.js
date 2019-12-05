@@ -36,6 +36,20 @@ class HomeIndex extends React.Component {
                         <div className="column">
                             <ul>
                                 <div className="card">
+                                    <h3>ConOps</h3>
+                                    <h4>
+                                        ConOps is the behind the scenes application of 2D Con. It allows the staff and volunteers at 2D Con to manage their schedules,
+                                        and it allows attendees to volunteer as a walk-up with limited authorization.
+                                    </h4>
+                                    <a href="https://github.com/conops-porta/conops-porta" target="_blank" rel="noopener noreferrer">
+                                        Check it out on Github!
+                                    </a>
+                                    <br />
+                                    <a href="https://conops-porta.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                        See the live demo on Heroku!
+                                    </a>
+                                </div>
+                                <div className="card">
                                     <h3>Ships in the Night</h3>
                                     <h4>
                                         A mobile-first, full stack web application designed for households to share in task and chore management and delegation.
